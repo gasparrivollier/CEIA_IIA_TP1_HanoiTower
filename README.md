@@ -20,16 +20,17 @@ Implementación y análisis de algoritmos de búsqueda aplicados al clásico pro
 
 ## 🧩 Estructura del repositorio
 
+```
 CEIA_IIA_TP1_HanoiTower/
-├── aima_libs/                # Adaptaciones de las clases base de AIMA para modelado de problemas y nodos
-├── hanoi_states.py          # Lógica de representación de estados y acciones del problema
-├── hanoi_solver.py          # Implementaciones de los algoritmos de búsqueda aplicados al problema
-├── utils/                   # Scripts auxiliares (simulador, visualización, etc.)
-├── results/                 # Resultados obtenidos (métricas, secuencias de acciones, etc.)
-├── initial_state.json       # Estado inicial exportado para simulador externo
-├── sequence.json            # Secuencia de movimientos solucionadores
-└── README.md                # Este archivo
-
+├── aima_libs/              # Adaptaciones de clases base de AIMA para modelado de problemas y nodos
+├── hanoi_states.py         # Lógica de representación de estados y acciones del problema
+├── hanoi_solver.py         # Implementaciones de los algoritmos de búsqueda aplicados al problema
+├── utils/                  # Scripts auxiliares (simulador, visualización, etc.)
+├── results/                # Resultados obtenidos (métricas, secuencias de acciones, etc.)
+├── initial_state.json      # Estado inicial exportado para simulador externo
+├── sequence.json           # Secuencia de movimientos solucionadores
+└── README.md               # Este archivo
+```
 
 
 ## ⚙️ Requisitos
