@@ -2,11 +2,11 @@
 
 Repositorio del Trabajo Práctico N°1 de la materia "Introducción a la Inteligencia Artificial (IIA)", correspondiente a la Carrera de Especialización en Inteligencia Artificial (CEIA) de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
 
----
+
 
 Disclaimer: Readme generado por IA (gpt-4o) y ajustado. 
 
----
+
 
 ## 🧠 Tema del TP
 
@@ -16,7 +16,7 @@ Implementación y análisis de algoritmos de búsqueda aplicados al clásico pro
 - Búsqueda en profundidad (Depth-First Search - DFS)
 - Búsqueda en profundidad limitada (Depth-Limited Search - DLS)
 
----
+
 
 ## 🧩 Estructura del repositorio
 
@@ -30,7 +30,7 @@ CEIA_IIA_TP1_HanoiTower/
 ├── sequence.json            # Secuencia de movimientos solucionadores
 └── README.md                # Este archivo
 
----
+
 
 ## ⚙️ Requisitos
 
@@ -38,7 +38,7 @@ CEIA_IIA_TP1_HanoiTower/
 - Librerías estándar (copy, json, etc.)
 - Opcional: Jupyter Notebook para exploración interactiva
 
----
+
 
 ## 🚀 Ejecución
 
@@ -53,7 +53,7 @@ También puede usarse desde un entorno interactivo para correr variantes paramet
     sol, metrics, _ = hanoi_busqueda_profundidad_limitada_v2(disks=5, limite=31)
     print(metrics)
 
----
+
 
 ## 📈 Métricas
 
@@ -68,7 +68,7 @@ Los algoritmos devuelven un diccionario de métricas al encontrar (o no) una sol
         "max_depth": 31
     }
 
----
+
 
 ## 👨‍🏫 Docente
 
@@ -76,7 +76,7 @@ Los algoritmos devuelven un diccionario de métricas al encontrar (o no) una sol
 - Materia: Introducción a la Inteligencia Artificial (IIA)
 - Facultad de Ingeniería – Universidad de Buenos Aires (FIUBA)
 
----
+
 
 ## 📚 Créditos
 
