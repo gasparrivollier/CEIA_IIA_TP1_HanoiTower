@@ -8,7 +8,7 @@ Disclaimer: Readme generado por IA (gpt-4o) y ajustado.
 
 ---
 
-# 🧠 Tema del TP
+## 🧠 Tema del TP
 
 Implementación y análisis de algoritmos de búsqueda aplicados al clásico problema de la Torre de Hanoi. Se exploran distintas estrategias de búsqueda no informadas como:
 
@@ -18,7 +18,7 @@ Implementación y análisis de algoritmos de búsqueda aplicados al clásico pro
 
 ---
 
-# 🧩 Estructura del repositorio
+## 🧩 Estructura del repositorio
 
 CEIA_IIA_TP1_HanoiTower/
 ├── aima_libs/                # Adaptaciones de las clases base de AIMA para modelado de problemas y nodos
@@ -32,7 +32,7 @@ CEIA_IIA_TP1_HanoiTower/
 
 ---
 
-# ⚙️ Requisitos
+## ⚙️ Requisitos
 
 - Python 3.10+
 - Librerías estándar (copy, json, etc.)
@@ -40,7 +40,7 @@ CEIA_IIA_TP1_HanoiTower/
 
 ---
 
-# 🚀 Ejecución
+## 🚀 Ejecución
 
 Desde consola:
 
@@ -55,7 +55,7 @@ También puede usarse desde un entorno interactivo para correr variantes paramet
 
 ---
 
-# 📈 Métricas
+## 📈 Métricas
 
 Los algoritmos devuelven un diccionario de métricas al encontrar (o no) una solución, por ejemplo:
 
@@ -70,7 +70,7 @@ Los algoritmos devuelven un diccionario de métricas al encontrar (o no) una sol
 
 ---
 
-# 👨‍🏫 Docente
+## 👨‍🏫 Docente
 
 - Cátedra: CEIA - Especialización en Inteligencia Artificial
 - Materia: Introducción a la Inteligencia Artificial (IIA)
@@ -78,6 +78,6 @@ Los algoritmos devuelven un diccionario de métricas al encontrar (o no) una sol
 
 ---
 
-# 📚 Créditos
+## 📚 Créditos
 
 Trabajo realizado por estudiantes del CEIA para el TP1 del curso IIA.
