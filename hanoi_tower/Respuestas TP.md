@@ -11,8 +11,17 @@ En el módulo presentamos el problema de la Torre de Hanoi. Además, vimos difer
     - Environment: Varillas, Anillos.
     - Actuators: Movimiento de los anillos en las varillas.
     - Sensors: Ver que anillos hay en cada varilla.
+
 2. ¿Cuáles son las propiedades del entorno de trabajo?
-    - 
+
+El entorno es: 
+    - Totalmente observable: Se ven en todo momento las varillas y discos y las posiciones de cada uno. 
+    - Determinista: El resultado de una acción (Estado nuevo) depende enteramente de la acción (mover disco A de varilla X a varilla Y) y el estado en que se realiza (anillos en varillas X,Y,Z).
+    - Episódico: El ejercicio se reinicia a su estado inicial cada vez que se encuentra una solución. 
+    - Estático/Dinámico: 
+    - Discreto: 
+    - Agente individual: Solo un algoritmo de búsqueda se ejecuta simultaneamente. 
+
 3. En el contexto de este problema, defina los siguientes conceptos:
     - Estado
     - Espacio de estados
@@ -21,6 +30,7 @@ En el módulo presentamos el problema de la Torre de Hanoi. Además, vimos difer
     - Objetivo
     - Acción
     - Frontera
+
 4. Implemente algún método de búsqueda. Podés elegir cualquiera excepto búsqueda en anchura (breadth-first search), que ya fue desarrollada en clase. Sos libre de utilizar cualquiera de los algoritmos vistos, o incluso explorar nuevos.
 
 5. ¿Cuál es la complejidad teórica en tiempo y memoria del algoritmo elegido?
@@ -28,7 +38,6 @@ En el módulo presentamos el problema de la Torre de Hanoi. Además, vimos difer
 6. A nivel de implementación, ¿cuánto tiempo y memoria utiliza el algoritmo? (Se recomienda ejecutarlo 10 veces y calcular el promedio y el desvío estándar de ambas métricas).
 
 7. Si la solución óptima es de $2^k - 1$ movimientos (siendo *k* el número de discos), ¿qué tan lejos está la solución encontrada por el algoritmo implementado de esa solución óptima? (Se recomienda ejecutar al menos 10 veces y usar el promedio de los trayectos obtenidos).
-
 
 ### Entregables
 
